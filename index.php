@@ -103,6 +103,9 @@ footer {
                 case 'Sageuwu':
                   include 'trixie.php';
                   break;
+                  case 'kenji':
+                    include 'lumayog.php';
+                    break;
         }
       }
       
