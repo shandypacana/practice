@@ -81,12 +81,13 @@ footer {
 
 <section>
   <nav>
+  <!--Tarunga ninyo -->
     <ul>
       <li><a href="index.php?page=shandweb" class="<?php echo ($_GET['page'] ?? '') === 'shandweb' ? 'active': '';  ?>">Shandy</a></li>
-      <li><a href="#">Write your name here</a></li>
-      <li><a href="#">Write your name here</a></li>
-      <li><a href="#">Write your name here</a></li>
-      <li><a href="#">Write your name here</a></li>
+      <li><a href="#">Write your name here ven</a></li>
+      <li><a href="#">Write your name here ttrix</a></li>
+      <li><a href="#">Write your name here kenji</a></li>
+      <li><a href="#">Write your name here vonix</a></li>
 
     </ul>
   </nav>
