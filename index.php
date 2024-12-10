@@ -102,7 +102,7 @@ footer {
                 break;
                 case 'Sageuwu':
                   include 'trixie.php';
-                  break
+                  break;
         }
       }
       
