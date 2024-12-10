@@ -83,7 +83,7 @@ footer {
   <nav>
     <ul>
       <li><a href="index.php?page=shandweb" class="<?php echo ($_GET['page'] ?? '') === 'shandweb' ? 'active': '';  ?>">Shandy</a></li>
-      <li><a href="#">Write your name here</a></li>
+      <li><a href="index.php?page=trixie" class="<?php echo ($_GET['page'] ?? '') === 'trixie' ? 'active': '';  ?>">Trixie</a></li>
       <li><a href="#">Write your name here</a></li>
       <li><a href="#">Write your name here</a></li>
       <li><a href="#">Write your name here</a></li>
@@ -99,6 +99,7 @@ footer {
           case'shandweb':
                 include 'shandy.php';
                 break;
+                case 'trixie':
                 include 'trixie.php';
                 break;
         }
