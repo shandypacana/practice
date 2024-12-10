@@ -100,8 +100,8 @@ footer {
           case'shandweb':
                 include 'shandy.php';
                 break;
-                case'kenji':
-                  include 'lumayog.php';
+                case 'Sageuwu':
+                  include 'trixie.php';
                   break;
         }
       }
