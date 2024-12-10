@@ -83,9 +83,8 @@ footer {
   <nav>
     <ul>
       <li><a href="index.php?page=shandweb" class="<?php echo ($_GET['page'] ?? '') === 'shandweb' ? 'active': '';  ?>">Shandy</a></li>
-      <li><a href="index.php?page=SageDip" class="<?php echo ($_GET['page'] ?? '') === 'SageDip' ? 'active': '';  ?>">Trixie</a></li>
-      <li><a href="index.php?page=SageDip" class="<?php echo ($_GET['page'] ?? '') === 'Eternal Kings Rod' ? 'active': '';  ?>">Gacita</a></li>
-      <li><a href="index.php?page=kenji" class="<?php echo ($_GET['page'] ?? '') === 'kenji' ? 'active': '';  ?>">Lumayog</a></li>
+      <li><a href="#">Write your name here</a></li>
+      <li><a href="#">Write your name here</a></li>
       <li><a href="#">Write your name here</a></li>
       <li><a href="#">Write your name here</a></li>
 
@@ -99,14 +98,6 @@ footer {
         switch($page){
           case'shandweb':
                 include 'shandy.php';
-                break;
-                case 'SageDip':
-                include 'trixie.php';
-                break;
-                case 'Eternal Kings Rod';
-                break;
-                case 'kenji':
-                include 'lumayog.php';
                 break;
         }
       }
