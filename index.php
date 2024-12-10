@@ -99,6 +99,8 @@ footer {
           case'shandweb':
                 include 'shandy.php';
                 break;
+                include 'trixie.php';
+                break;
         }
       }
       
