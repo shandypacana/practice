@@ -87,7 +87,7 @@ footer {
       <li><a href="#">Write your name here ven</a></li>
       <li><a href="index.php?page=Sageuwu" class="<?php echo ($_GET['page'] ?? '') === 'Sageuwu' ? 'active': '';  ?>">Trixie</a></li>
       <li><a href="index.php?page=kenji" class="<?php echo ($_GET['page'] ?? '') === 'kenji' ? 'active': '';  ?>">Kenji</a></li>
-      <li><a href="#">Write your name here vonix</a></li>
+      <li><a href="index.php?page=von" class="<?php echo ($_GET['page'] ?? '') === 'von' ? 'active': '';  ?>">Vonix</a></li>
 
     </ul>
   </nav>
@@ -106,6 +106,9 @@ footer {
                   case 'kenji':
                     include 'lumayog.php';
                     break;
+                    case'von':
+                      include 'smeagol.php';
+                      break;
         }
       }
       
